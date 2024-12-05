@@ -1,83 +1,75 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "bonjour",
       "patterns": [
-        "Hi",
+        "Bonjour",
+        "Salut",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Coucou",
+        "Ça va ?",
+        "Comment vas-tu ?",
+        "Comment allez-vous ?",
+        "Vous allez bien ?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Bonjour. Comment allez-vous ?",
+        "Salut. J'espère que vous allez bien.",
+        "Hello. Je vais très bien, et vous ?"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "au revoir",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Au revoir",
+        "À la prochaine",
+        "À plus tard"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "À la prochaine, merci de votre visite !",
+        "Passez une bonne journée !",
+        "C'était sympa de discuter avec vous, j'espère qu'on se reverra !"
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
+      "tag": "merci",
+      "patterns": ["Merci", "Merci beaucoup", "Merci de votre aide"],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Aucun problème, c'était un plaisir de vous aider. N'hésitez pas si vous avez d'autres questions.",
+        "Je vous en supplie. N'hésitez pas si vous avez d'autres questions.",
+        "Je suis ravi de vous avoir aidé. N'hésitez pas si vous avez d'autres questions."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "à propos",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "À propos de vous",
+        "À propos de toi",
+        "Qui es-tu ?",
+        "Qui êtes-vous ?",
+        "Présentez vous",
+        "Présentez toi",
+        "Pouvez-vous vous présenter ?"
       ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+      "responses" : [
+        "Nous sommes la Fondation Race for Water, une organisation dédiée à la préservation des océans. Connue pour les Odyssées mondiales à bord de navires révolutionnaires au service des océans, nous étudions, depuis plus de 10 ans, l’impact de la pollution plastique sur les écosystèmes et la santé humaine, tout en apportant aux communautés locales des solutions pertinentes afin d'empêcher les déchets plastiques d’atteindre les cours d’eau."
       ]
     },
     {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+      "tag": "objectif",
+      "patterns" : [
+        "Vos objectifs",
+        "Votre but",
+        "Votre mission",
+        "Vos intentions",
+        "Quels sont vos objectifs ?",
+        "Quel est votre but ?",
+        "Quelle est votre mission ?",
+        "Que faites-vous ?"
       ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+      "responses" : [
+        "L’océan se réchauffe et devient plus acide en conséquence directe de la dissolution d’une plus grande quantité de CO2. Ces changements endommagent de manière irréversible les écosystèmes marins. Notre mission est de décarboner les navires fonctionnant aux énergies fossiles grâce à de nouveaux systèmes véliques adaptés."
       ]
     }
   ]
