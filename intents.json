@@ -23,6 +23,8 @@
       "tag": "au revoir",
       "patterns": [
         "Au revoir",
+        "Aurevoir",
+        "Bye",
         "À la prochaine",
         "À plus tard"
       ],

@@ -13,7 +13,7 @@ import nltk
 nltk.download('punkt')
 nltk.download('punkt_tab')
 
-with open('intents.json', 'r') as f:
+with open('intents.json', 'r', encoding='UTF-8') as f:
     intents = json.load(f)
 
 all_words = []
